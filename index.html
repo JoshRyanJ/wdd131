@@ -1,53 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta description = WDD 131 – Dynamic Web Fundamentals – Josiah Ryan Ofosuhene>
-    <title>WDD 131 – Dynamic Web Fundamentals – Josiah Ryan Ofosuhene</title>
-    <script id="script/getdates.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WDD 131 – Dynamic Web Fundamentals – Your Name</title>
+  <meta name="description" content="WDD 131 – Dynamic Web Fundamentals | Your Full Name | A personal course landing page covering web design, HTML, CSS, and JavaScript fundamentals.">
+  <meta name="author" content="Josiah Ryan Ofosuhene">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/base.css">
+  <script src="scripts/getdates.js" defer></script>
 </head>
 <body>
-    <header>
 
-        <span id="course-title"> Dynamic Web Fundamentals – Josiah Ryan Ofosuhene</span>
-
+  <header>
+    <span id="course-title">WDD 131 – Dynamic Web Fundamentals</span>
     <nav>
-        <a href="https://www.linkedin.com/in/josiah-ryan-o-/">LinkedIn</a>
-
-        <a href="https://byupw.instructure.com/"><Canvas></a>
-
-        <a href="https://www.churchofjesuschrist.org/study/scriptures">Scripture</a>
-
-        <a href="">Final Project</a>
-        
-        </header>
-
-
+      <a href="https://www.linkedin.com/in/josiah-ryan-o-/" target="_blank">LinkedIn</a>
+      <a href="https://byupw.instructure.com/" target="_blank">Canvas</a>
+      <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/3?lang=eng&id=p7#p7" target="_blank">Scripture</a>
+      <a href="project/index.html">Final Project</a>
     </nav>
+  </header>
 
-    <main>
-        <h1>Josiah Ryan Ofosuhene</h1>
+  <main>
+    <h1>Josiah Ryan Ofosuhene</h1>
 
-        <section class="card"></section>
-        
-        <section class="card
-        "></section>
-    
+    <div class="cards-container">
 
-    </main>
-
-    <footer>
-        <p>Copyright symbol 
-            <span id="currentyear"></span> Josiah Ryan Ofosuhene | Ghana
+      <section class="card">
+        <h2>About Me</h2>
+        <img src="images/josiah-headshot.jpg" alt="A photo of Josiah" width="300" height="200" loading="lazy">
+        <p>
+          Welcome to my WDD 131 course page. I am passionate about web development and design.
+          This course is helping me build a strong foundation in HTML, CSS, and JavaScript.
+          I look forward to creating dynamic, accessible, and user-friendly web experiences.
         </p>
+      </section>
 
-        <p id="lastModified"></p>
+      <section class="card">
+        <h2>Why Web Development?</h2>
+        <img src="images/web-development.jpg" alt="Web development illustration" width="300" height="200" loading="lazy">
+        <p>
+          The web connects billions of people across the world. Learning to build and shape
+          that experience is both a creative and technical challenge I find deeply rewarding.
+          My goal is to use these skills to build meaningful, impactful projects.
+        </p>
+      </section>
 
+    </div>
+  </main>
 
-    </footer>
+  <footer>
+    <p>
+      &copy; <span id="currentyear"></span> &bull; Josiah Ryan Ofosuhene &bull; Ghana
+    </p>
+    <p id="lastModified"></p>
+  </footer>
 
-
-    
 </body>
-</html>l
+</html>
